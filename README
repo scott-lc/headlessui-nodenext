@@ -1,6 +1,7 @@
-Don't actually expect this to run, just compile.
+I don't actually expect this to run, just compile.
 
 ```
 npm install
-npm run build
+npm run build:esnext  # Works like expected.
+npm run build:nodenext # Fails spectacularly.
 ```

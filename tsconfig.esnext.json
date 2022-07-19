@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
     "outDir": "./dist/esnext",
-    "module": "ESNext"
+    "module": "ESNext",
+    "moduleResolution": "node"
   },
-  "extends": "./tsconfig.json"
+  "extends": "./tsconfig.common.json"
 }
