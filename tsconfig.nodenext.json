@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/nodenext",
+    "module": "NodeNext"
+  },
+  "extends": "./tsconfig.json"
+}

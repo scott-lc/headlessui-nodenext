@@ -1,0 +1,6 @@
+Don't actually expect this to run, just compile.
+
+```
+npm install
+npm run build
+```
