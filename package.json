@@ -1,5 +1,6 @@
 {
   "name": "headlessui-nodenext",
+  "type": "module",
   "scripts": {
     "clean": "rimraf ./dist",
     "build": "run-s build:*",
@@ -7,7 +8,7 @@
     "build:nodenext": "tsc -p tsconfig.nodenext.json"
   },
   "dependencies": {
-    "@headlessui/react": "^1.6.6",
+    "@headlessui/react": "0.0.0-insiders.5bfa3da",
     "csstype": "^3.1.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
